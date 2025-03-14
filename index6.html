@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript" type="text/javascript">
+        function MouseOver(){
+            document.image["img1"].src = "logo red.png"
+        } 
+        function MouseOut(){
+            document.img["img2"].src = "logo green.png"
+        }
+        function Load(){
+            document.img["img3"].src = "logo green.png"
+        }
+    </script>
+</head>
+<body onload="Load()">
+    <img name="img" onmouseover="MouseOver" onmouseout="MouseOut">
+    
+</body>
+</html>
